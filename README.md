@@ -1,6 +1,5 @@
 # Simple RAG project
-This is a very simple RAG project. It can help you generate prompts for answering questions about you personal PDF files.
-It does so by vectorizing chunks of text from the PDF to embeddings which can be used to calculate the similarity between text.
+A very simple RAG project. It can help you generate prompts for answering questions about your personal PDF files. It does so by vectorizing chunks of text from the PDF to embeddings which can be used to calculate the similarity between text. Similar text is then used as a context for an LLM to answer the full question based on your documents.
 
 The RAG or Retrieval Augmented Generation is basically conducted in three steps:
 1. From a "database" of PDF files, you generate a Vector database of embeddings. This step is conducted "offline" and only needs to be done once.
